@@ -23,6 +23,7 @@ public class ElevatorSystem {
 
         Thread.sleep(2000);
 
+
         manager.requestElevator(7, 12);  // Request from floor 7 to floor 12
         manager.requestElevator(4, 0);   // Request from floor 4 to ground floor
 
