@@ -1,9 +1,7 @@
-package elevator.system;
+package com.rajat.elevatorsystem.models;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 public class Elevator {
     int id;
@@ -63,7 +61,7 @@ public class Elevator {
          moveToFloor(request.getSrcFloor());
      }
 
-     moveToFloor(request.destFloor);
+     moveToFloor(request.getDestFloor());
      elevatorStatus = ElevatorStatus.IDLE;
      direction = null;
     }

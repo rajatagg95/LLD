@@ -1,4 +1,4 @@
-package elevator.system;
+package com.rajat.elevatorsystem.models;
 
 public class Request {
 
